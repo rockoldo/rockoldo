@@ -1,0 +1,51 @@
+#regresar:hover{
+    color: cadetblue;
+}
+
+p{
+    font-size: 30px;
+    font-style: italic;
+}
+
+table{
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: auto;
+    
+}
+
+th{
+    color: lawngreen;
+    font-size: 22px;
+}
+
+td{
+    text-align: center;
+}
+
+tfoot{
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
+
+tfoot:hover{
+    color: red;
+}
+
+hr{
+    border: none;
+    border-top: 3px double black;
+    color: black;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr::after{
+    background: white;
+    content: '֎';
+    padding: 0 5px;
+    position: relative;
+    top: -13px;
+}
